@@ -13,6 +13,7 @@ public class JenkinsTestMessengerApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.out.println("test");
 		assertThat(true, is(true));
 	}
 
