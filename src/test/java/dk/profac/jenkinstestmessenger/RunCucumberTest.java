@@ -7,7 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {"pretty", "html:target/cucumber"},
-        features = {"src/test/java/dk/profac/resources"})
+        glue = "dk.profac.jenkinstestmessenger",
+        features = {"src/test/java/dk/profac/resources/cucumber"})
 public class RunCucumberTest {
 
 }

@@ -1,9 +1,4 @@
-//Feature: <feature title>
-//As a <persona|role>
-//I want to <action>
-//So that <outcome>
-
-Feature: HelloWorld
+Feature: HelloController
 
   Scenario: Hello World test
     Given I have a function index that return a string saying Hello world
